@@ -1,0 +1,44 @@
+
+
+body{
+    background-color: black;
+   overflow-x: hidden;
+}
+
+
+nav{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+a{
+    color: lightgray !important;
+    font-weight: 600 !important;
+}
+span{
+    cursor: pointer;
+}
+
+.img1, .img2{
+    position: absolute;
+    z-index: -1;
+}
+
+.img1{
+    right: -63%;
+}
+.img2{
+    left: -60%;
+    margin-top: -10%;
+}
+
+.btns1{
+    background: linear-gradient(to right, purple, rgb(145, 52, 145));
+    padding: 1rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1400px){
+    body{
+        overflow: hidden;
+    }
+}
