@@ -33,11 +33,51 @@ span{
     left: -60%;
     margin-top: -10%;
 }
-
 .btns1{
     background: linear-gradient(to right, purple, rgb(145, 52, 145));
     padding: 1rem;
     font-weight: bold;
+}
+
+.gradient-text h1:nth-child(1){
+    background: linear-gradient(100.51deg, #f087ff 27.61%, #6e1fce 62.14%,rgba(110, 31, 206, .1) 113.78%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 400;
+}
+.gradient-text h1:nth-child(3){
+    background: linear-gradient(100.22deg, #1fcff1 30.11%, #234cb6 66.43%, rgba(35, 76, 182, .1) 120.76%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 400;
+}
+.gradient-text h1:nth-child(5){
+    background:linear-gradient(97.65deg, #19fb9b 11.36%, #199890 54.3%, #005f59 100.78%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 400;
+}
+
+.bg{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url('https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Ff6af6a440836404080a1919059090128&w=1080&q=75');
+    padding: 4rem;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center, center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.bg:hover{
+    background-image: url('https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Ff6af6a440836404080a1919059090128&w=1080&q=75');
+}
+
+.arrow-right{
+    font-size: 2.5rem;
+}
+
+.btn-purple{
+    background: linear-gradient(to right, purple, rgb(243, 54, 243));
 }
 
 @media only screen and (max-width:1400px){
